@@ -24,7 +24,7 @@ The GO-DMBI pipeline combines:
     <code>data_process.py</code>.
   </li>
   <li>
-    <b>Node Metadata</b><br>
+    <b>Node data</b><br>
     <code>DATA/Data_process_output/disease_nodes_with_uniprot_and_embidx.csv</code><br>
     Curated disease-specific nodes with UniProt IDs and embedding indices.
   </li>
