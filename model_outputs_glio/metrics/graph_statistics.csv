@@ -1,0 +1,8 @@
+stage,n_nodes,n_edges,n_positives,n_removed_nodes,removal_reason,additional_info
+Initial Load,1059,8208,254,,,"geokg_shape=(1059, 50), go_terms_shape=(1059, 768)"
+After Feature Filtering,1059,8208,254,0.0,Invalid features (zero norm),
+After Edge Index Build,1059,8090,254,,,
+Isolated Node Removal,1054,8090,254,5.0,Degree = 0,Removed biomarkers: 0
+Final Processing,1054,8090,254,,,
+Train/Val Split,843,5254,203,,,Edges within train/val node set only
+Test Split,211,314,51,,,Edges within test node set only
