@@ -8,6 +8,6 @@ GO-DMBI is a deep learning model for identifying biomarkers from a PPI Network.
     3. NODES_PATH = "DATA/Data_process_output/disease_nodes_with_uniprot_and_embidx.csv" # Nodes curated from data_process.py i.e. nodes that has GO terms and GEOKG             mapped
     4. EDGES_PATH = "DATA/Raw/Glioblastoma_microarray/glio_edges.csv" # edges form the PPI network
     5. OUTPUT_DIR = "update1_disease_outputs" # Output directory specified to save outputs
-    # Training the data on requires labels i.e, biomarkers 
+    Training the data on requires labels i.e, biomarkers 
     
 
