@@ -8,7 +8,7 @@ from PPI network by integrating Gene Ontology (GO)–guided node embeddings with
 The GO-DMBI pipeline combines:
 </p>
   <li>Protein–Protein Interaction (PPI) network structure</li>
-  <li>GO-term–based gene embeddings</li>
+  <li>GO-term–based protein embeddings</li>
   <li>Deep learning models for supervised biomarker identification</li>
 <h2>Training Data Requirements</h2>
 <p>Training the model requires the following inputs:</p>
@@ -30,20 +30,16 @@ The GO-DMBI pipeline combines:
   </li>
   <li>
     <b>PPI Network Edges</b><br>
-    <code>DATA/Raw/Glioblastoma_microarray/glio_edges.csv</code><br>
+    <code>disease_edges.csv</code><br>
     Edge list defining the disease-specific PPI network.
   </li>
   <li>
     <b>Output Directory</b><br>
-    <code>update1_disease_outputs</code><br>
+    <code>disease_outputs</code><br>
     Directory used to store model outputs and results.
   </li>
 <h2>Labels for Supervised Training</h2>
-<p>
-  <li>Supervised training requires biomarker annotations:
-</p>
   <li>Binary labels indicating biomarker </li>
-  
 <h2>Notes</h2>
 <ul>
   <li>Large datasets, embeddings, and trained models are not tracked in Git</li>
