@@ -9,7 +9,7 @@ The GO-DMBI pipeline combines:
 </p>
   <li>Protein–Protein Interaction (PPI) network structure</li>
   <li>GO-term–based protein embeddings</li>
-  <li>Deep learning models for supervised biomarker identification</li>
+  <li>Deep learning models for biomarker identification</li>
 <h2>Training Data Requirements</h2>
 <p>Training the model requires the following inputs:</p>
   <li>
