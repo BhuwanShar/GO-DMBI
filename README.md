@@ -43,7 +43,7 @@ The GO-DMBI pipeline combines:
 <h2>Notes</h2>
 <ul>
   <li>Large datasets, embeddings, and trained models are not tracked in Git</li>
-  <li>Only source code and documentation are version-controlled</li>
+  <li>Only source code and documentation are aviliable</li>
 </ul>
 <h2>Citation</h2>
 <p>
