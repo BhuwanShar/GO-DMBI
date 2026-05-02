@@ -1,13 +1,13 @@
 <h1>CABIgo: A gated fusion framework of graph convolution networks and Multi-Layer Perceptron for Context-Aware Biomarker Identification Using Gene Ontology Embeddings</h1>
 <p> CABIgo is a graph-based deep learning framework for identifying disease biomarkers
-from PPI network by integrating Gene Ontology (GO)–guided node embeddings with network topology.
+from PPI network by integrating Gene Ontology (GO) guided node embeddings with network topology.
 </p>
 <h2>Overview</h2>
 <p>
 The CABIgo pipeline combines:
 </p>
   <li>Protein-Protein Interaction (PPI) network structure</li>
-  <li>GO-term–based protein embeddings</li>
+  <li>GO-term based protein embeddings</li>
   <li>Deep learning models for biomarker identification</li>
 <h2>Training Data Requirements</h2>
 <p>Training the model requires the following inputs:</p>
