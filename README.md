@@ -42,7 +42,7 @@ The CABIgo pipeline combines:
 <h2>Notes</h2>
 <ul>
   <li>Large datasets, embeddings, and trained models are not tracked in Git</li>
-  <li>The fine tuned BioBert model weight is aviliable at <href> https://doi.org/10.5281/zenodo.15165076 </href> </li
+  <li>The fine tuned BioBert model weight is aviliable at <href> https://doi.org/10.5281/zenodo.19972967 </href> </li
   <li>Only source code and documentation are aviliable here</li>
   <li> The trained model weights for each disease are at the respective dirs model-outputs_disease/disease</li>
 </ul>
