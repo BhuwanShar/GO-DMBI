@@ -1,11 +1,10 @@
-<h1>GO-Guided Deep Learning Model for Biomarker Identification (GO-DMBI)</h1>
-<p>
-GO-DMBI is a graph-based deep learning framework for identifying disease biomarkers
+<h1>CABIgo: A gated fusion framework of graph convolution networks and Multi-Layer Perceptron for Context-Aware Biomarker Identification Using Gene Ontology Embeddings</h1>
+<p> CABIgo is a graph-based deep learning framework for identifying disease biomarkers
 from PPI network by integrating Gene Ontology (GO)–guided node embeddings with network topology.
 </p>
 <h2>Overview</h2>
 <p>
-The GO-DMBI pipeline combines:
+The CABIgo pipeline combines:
 </p>
   <li>Protein–Protein Interaction (PPI) network structure</li>
   <li>GO-term–based protein embeddings</li>
@@ -43,7 +42,9 @@ The GO-DMBI pipeline combines:
 <h2>Notes</h2>
 <ul>
   <li>Large datasets, embeddings, and trained models are not tracked in Git</li>
-  <li>Only source code and documentation are aviliable</li>
+  <li>The fine tuned BioBert model weight is aviliable at <a> https://doi.org/10.5281/zenodo.15165076 </a> </li
+  <li>Only source code and documentation are aviliable here</li>
+  <li> The trained model weights for each disease are at the respective dirs model-outputs_disease/disease</li>
 </ul>
 <h2>Citation</h2>
 <p>
