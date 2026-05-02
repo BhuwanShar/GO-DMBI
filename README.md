@@ -46,8 +46,7 @@ The CABIgo pipeline combines:
     <li> Install the packages in requirements.txt inside the created conda env</li>
     <li> Open SCRIPTS/pipeline.py </li>
     <li> Add or modify the data locations as per your requirement </li>
-    <li><code>cd ..</code> </li>
-    <li> Run: <code> python ./SCRIPTS/pipeline.py </code> </li>
+    <li> Run: <code> python ./SCRIPTS/pipeline.py </code> from the CABIgo dir</li>
   </ul>
 <h2>Notes</h2>
 <ul>
