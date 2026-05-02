@@ -6,7 +6,7 @@ from PPI network by integrating Gene Ontology (GO)–guided node embeddings with
 <p>
 The CABIgo pipeline combines:
 </p>
-  <li>Protein–Protein Interaction (PPI) network structure</li>
+  <li>Protein-Protein Interaction (PPI) network structure</li>
   <li>GO-term–based protein embeddings</li>
   <li>Deep learning models for biomarker identification</li>
 <h2>Training Data Requirements</h2>
@@ -45,7 +45,7 @@ The CABIgo pipeline combines:
     <li> Create conda env with python version 3.12.3 and activate it</li>
     <li> Install the packages in requirements.txt inside the created conda env</li>
     <li> Open SCRIPTS/pipeline.py </li>
-    <li> Add or dodify the data locations as per your requirement </li>
+    <li> Add or modify the data locations as per your requirement </li>
     <li><code>cd ..</code> </li>
     <li> Run: <code> python ./SCRIPTS/pipeline.py </code> </li>
   </ul>
