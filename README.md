@@ -41,10 +41,9 @@ The CABIgo pipeline combines:
   <li>Binary labels indicating biomarker </li>
 <h2>Notes</h2>
 <ul>
-  <li>Large datasets, embeddings, and trained models are not tracked in Git</li>
+  <li>Some Large datasets, embeddings, and trained models are not tracked in Git</li>
   <li>The fine tuned BioBert model weight is aviliable at <href> https://doi.org/10.5281/zenodo.19972967 </href> </li
-  <li>Only source code and documentation are aviliable here</li>
-  <li> The trained model weights for each disease are at the respective dirs model-outputs_disease/disease</li>
+  <li> The trained model weights for each disease are at the respective directories model-outputs_disease/disease</li>
 </ul>
 <h2>Citation</h2>
 <p>
