@@ -39,19 +39,20 @@ The CABIgo pipeline combines:
   </li>
 <h2>Labels for Supervised Training</h2>
   <li>Binary labels indicating biomarker </li>
-<h2> Training the model <h2>
-  <b> clone the git repo </b>
-  <b> Create conda env with python version</b>
-  <b> Install the packages in requirements.txt inside the created conda env</b>
-  <b> Open SCRIPTS/pipeline.py </b>
-  <b> Add or dodify the data locations as per your requirement </b>
-  <b>cd .. </b>
-  <b> Run: python
+<h2> Training your model <h2>
+  <li> clone the git repo </li>
+  <li> Create conda env with python version 3.12.3 and activate it</li>
+  <li> Install the packages in requirements.txt inside the created conda env</li>
+  <li> Open SCRIPTS/pipeline.py </li>
+  <li> Add or dodify the data locations as per your requirement </li>
+  <li>cd .. </li>
+  <li> Run: python ./SCRIPTS/pipeline.py </li>
 <h2>Notes</h2>
 <ul>
   <li>Some Large datasets, embeddings, and trained models are not tracked in Git</li>
   <li>The fine tuned BioBert model weight is aviliable at <href> https://doi.org/10.5281/zenodo.19972967 </href> </li
   <li> The trained model weights for each disease are at the respective directories model-outputs_disease/disease</li>
+  <li> For prediction you can visit <href> https://godmbc.compbiosysnbu.in/ </href>
 </ul>
 <h2>Citation</h2>
 <p>
