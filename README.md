@@ -40,13 +40,15 @@ The CABIgo pipeline combines:
 <h2>Labels for Supervised Training</h2>
   <li>Binary labels indicating biomarker </li>
 <h2> Training your model <h2>
-  <li> clone the git repo </li>
-  <li> Create conda env with python version 3.12.3 and activate it</li>
-  <li> Install the packages in requirements.txt inside the created conda env</li>
-  <li> Open SCRIPTS/pipeline.py </li>
-  <li> Add or dodify the data locations as per your requirement </li>
-  <li>cd .. </li>
-  <li> Run: python ./SCRIPTS/pipeline.py </li>
+  <ul>
+    <li> clone the git repo </li>
+    <li> Create conda env with python version 3.12.3 and activate it</li>
+    <li> Install the packages in requirements.txt inside the created conda env</li>
+    <li> Open SCRIPTS/pipeline.py </li>
+    <li> Add or dodify the data locations as per your requirement </li>
+    <li><code>cd ..</code>code> </li>
+    <li> Run: <code> python ./SCRIPTS/pipeline.py </code>code> </li>
+  </ul>
 <h2>Notes</h2>
 <ul>
   <li>Some Large datasets, embeddings, and trained models are not tracked in Git</li>
